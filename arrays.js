@@ -48,7 +48,7 @@ function addElementToBeginningOfArray(originalArray, itemToAdd){
 }
 
 function destructivelyAddElementToBeginningOfArray(originalArray, itemToAdd) {
-  var originalArray = originalArray ///[itemToAdd, ...originalArray]
+  //var originalArray = originalArray ///[itemToAdd, ...originalArray]
   originalArray = originalArray.unshift(itemToAdd);
   return originalArray
 }
